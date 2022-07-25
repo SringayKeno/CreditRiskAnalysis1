@@ -104,4 +104,4 @@ Easy Ensemble selects all examples from the minority class and a subset from the
 
 * The best model that performed was the Easy Ensemble AdaBoost Classifier with a balanced accuracy score of 92.5% and the highest precision score of 7% among the algorithms accessed and high sensitivity score of 91%.
 
-* All six models fail to predict high credit risk, despite some models perform better than the others. Therefore, it is not recommended to use any of them alone to predict credit risk at this stage.
+* All six models failed to predict high credit risk, despite some models performing better than others. It is not recommended to use any of them alone to predict credit risk at this stage.
