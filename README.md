@@ -100,11 +100,8 @@ Easy Ensemble selects all examples from the minority class and a subset from the
 
 * Out of all six algorithms, the SMOTE (.0637) and Cluster Centriod (.0637) models the lowest balanced accuracy scores. The Easy Ensemble AdaBoost Classifier model has the highest balanced accuracy score (92.5%). The balanced accuracy scores of the rest of the models are between 63.9% and 78.8%.
 
-* All the algorithms had hava 100% precision score for the low risk loan, which means when the model predicts the credit risk correct every time. The precision scores for high risk loans for all models was very low (between 1.0% and 7.0%) telling us that all models are bad at predicting if a loan is actually a high risk.
+* All the algorithms had hava 100% precision score for the low risk loan, which means when the model predicts the credit risk correct every time. The precision scores for high risk loans for all models was very low (between 1.0% and 7.0%) telling us that all the algorithms are bad at predicting if a loan is high risk.
 
-* The F1 sores (harmonic mean) of low risk loan is between 60.0% and 97.0% and this suggests the models handle the predictions for low risk loan well. However, the F1 scores for high risk loan varied between 1% and 14% and this means the success rate of recognizing a loan is risky is low.
+* The best model that performed was the Easy Ensemble AdaBoost Classifier with a balanced accuracy score of 92.5% and the highest precision score of 7% among the algorithms accessed and high sensitivity score of 91%.
 
-* When evaluating if the machine learning model is good at predicting credit risk, we must bear in mind the dataset is heavily imbalanced (i.e. good loans outnumber risk ones). We cannot simply judge the models by its accuracy score and must review how well it predicts both low/high risk loans individually (by reviewing precision scores and F1 scores).
-Compare to the ability to identify loans as low risk, the ability to flag high risk loans is more impactful as these loans have adverse impact to the company.
-
-* All six models fail to predict credit risk, despite some models perform better than the others. Therefore, it is not recommended to use any of them alone to predict credit risk at this stage.
+* All six models fail to predict high credit risk, despite some models perform better than the others. Therefore, it is not recommended to use any of them alone to predict credit risk at this stage.
