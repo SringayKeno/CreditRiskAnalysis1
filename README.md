@@ -1,11 +1,21 @@
 # CreditRiskAnalysis1
 
 
-## Overview of the analysis: Purpose of this analysis
+## Overview of the analysis: Purpose of Analysis
 
 This analysis takes a look at algorithms used to predict credit card risk. 
 
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I d two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
+
+## Criteria
+
+The following criteria are used to assess the model's performance.
+
+* Accuracy Score - This is just the percentage of right predictions, with 1 being 100% accurate and 0 being 0% accurate.
+
+* Precision Score - a metric for how reliable a positive classification is, with 1 being 100% and 0 being 0%. As an example, "I'm aware that the high-risk test was positive. How likely is it that the loan will be high-risk?"
+
+* Recall Score - a measure of how many actual positives were accurately detected, with 1 being 100% correct and 0 being 0% correct. "I'm well aware that my loan is a high-risk investment. How likely is that the test will be able to predict it?"
 
 ## Results: 
 
