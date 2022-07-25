@@ -49,7 +49,9 @@ Cluster Centroids identify majority class clusters and generate synthetic data p
 
 * The balanced accuracy score is 0.637
 * Precision score - Precision score for high risk (0.01) and low risk 1.00
-* Recall score - Recall score for high risk (0.60) and low risk 0.68 
+* Recall score - Recall score for high risk (0.61) and low risk 0.45 
+
+below the results for the undersampling
 
 <img width="475" alt="3Undersampling" src="https://user-images.githubusercontent.com/102890151/180676797-d1c938af-5eea-4540-95e1-a30d62ff02be.png">
 
@@ -59,6 +61,12 @@ Cluster Centroids identify majority class clusters and generate synthetic data p
 The SMOTEENN is a combination of the SMOTE algorithm and the Edited Nearest Neighbors (ENN) algorithm. SMOTEENN is a two-step process.
 1. Oversample minority classes using SMOTE.
 2. Use an undersampling strategy to clean up the resulting data. If the two nearest neighbors of a data point belong to two different classes, the data point will be deleted.
+
+* The balanced accuracy score is 0.637
+* Precision score - Precision score for high risk (0.01) and low risk 1.00
+* Recall score - Recall score for high risk (0.61) and low risk 0.45 
+
+results for the SMOTEENN Combination Sampling shown below
 
 <img width="450" alt="4Combination (Over and Under) Sampling" src="https://user-images.githubusercontent.com/102890151/180676819-7f8e6cb7-e06b-478c-9b68-afbc29f62781.png">
 
