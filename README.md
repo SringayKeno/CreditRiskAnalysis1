@@ -74,12 +74,12 @@ results for the SMOTEENN Combination Sampling shown below
 
 The random forest algorithm will sample the data and build several smaller, simpler decision trees. Each tree is simpler because it is built from a random subset of features.
 
-* The balanced accuracy score is 0.637
+* The balanced accuracy score is 0.788
 
 <img width="425" alt="7Balanced Random Forest Classifier" src="https://user-images.githubusercontent.com/102890151/180676839-70e3ef44-a694-45db-ae0f-14f47beff28f.png">
 
-* Precision score - Precision score for high risk (0.01) and low risk 1.00
-* Recall score - Recall score for high risk (0.61) and low risk 0.45 
+* Precision score - Precision score for high risk (0.04) and low risk 1.00
+* Recall score - Recall score for high risk (0.67) and low risk 0.91 
 
 <img width="425" alt="7Balanced Random Forest Classifier2" src="https://user-images.githubusercontent.com/102890151/180676841-4fd0fcbe-6a6c-41c1-a407-5768a9dfd245.png">
 
@@ -87,12 +87,12 @@ The random forest algorithm will sample the data and build several smaller, simp
 
 Easy Ensemble selects all examples from the minority class and a subset from the majority class to create a balanced sample of the training set. Instead of using a pruned decision tree, a boosted decision tree is used for each subset, especially the AdaBoost algorithm.
 
-* The balanced accuracy score is 0.637
+* The balanced accuracy score is 0.925
 
 <img width="331" alt="8Easy Ensemble AdaBoost Classifier" src="https://user-images.githubusercontent.com/102890151/180676855-9691eb92-2b59-44dc-8c72-3c923eaf603d.png">
 
-* Precision score - Precision score for high risk (0.01) and low risk 1.00
-* Recall score - Recall score for high risk (0.67) and low risk 0.45 
+* Precision score - Precision score for high risk (0.07) and low risk 1.00
+* Recall score - Recall score for high risk (0.91) and low risk 0.94 
 
 <img width="331" alt="8Easy Ensemble AdaBoost Classifier2" src="https://user-images.githubusercontent.com/102890151/180676865-7cdc16a8-b6a0-4860-94d9-834d55f89163.png">
 
