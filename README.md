@@ -100,7 +100,7 @@ Easy Ensemble selects all examples from the minority class and a subset from the
 
 * Out of all six algorithms, the SMOTE (.0637) and Cluster Centriod (.0637) models the lowest balanced accuracy scores. The Easy Ensemble AdaBoost Classifier model has the highest balanced accuracy score (92.5%). The balanced accuracy scores of the rest of the models are between 63.9% and 78.8%.
 
-* All models have a 100% precision score for low risk loan, which means when the model predicts the credit risk is low for a loan, it is correct every time. But the precision scores for high risk loan for all models is very low (between 1.0% and 7.0%), meaning that all models are bad at predicting if a loan is actually a high risk one.
+* All the algorithms had hava 100% precision score for the low risk loan, which means when the model predicts the credit risk correct every time. The precision scores for high risk loans for all models was very low (between 1.0% and 7.0%) telling us that all models are bad at predicting if a loan is actually a high risk.
 
 * The F1 sores (harmonic mean) of low risk loan is between 60.0% and 97.0% and this suggests the models handle the predictions for low risk loan well. However, the F1 scores for high risk loan varied between 1% and 14% and this means the success rate of recognizing a loan is risky is low.
 
