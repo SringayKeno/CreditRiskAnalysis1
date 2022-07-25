@@ -1,7 +1,7 @@
 # CreditRiskAnalysis1
 
 
-## Overview of the analysis: Purpose of Analysis
+## Overview: Purpose of Analysis
 
 This analysis takes a look at algorithms used to predict credit card risk. 
 
@@ -27,11 +27,17 @@ In random oversampling, instances of the minority class are randomly selected an
 * Precision score - Precision score for high risk (0.01) and low risk 1.00
 * Recall score - Recall score for high risk (0.60) and low risk 0.68 
 
+below, the results of the random sampling algorithm
+
 <img width="550" alt="1Naive Random Oversampling" src="https://user-images.githubusercontent.com/102890151/180676756-401f51d6-0292-4fc6-908f-95fa87ca84fb.png">
 
 ### SMOTE Oversampling
 
 The synthetic Minority Oversampling (SMOTE) technique increases the size of minorities by interpolating new instances. That is, some nearest neighbours are selected for an instance of the minority class.
+
+* The balanced accuracy score is 0.641
+* Precision score - Precision score for high risk (0.01) and low risk 1.00
+* Recall score - Recall score for high risk (0.60) and low risk 0.68 
 
 <img width="475" alt="2SMOTE Oversampling" src="https://user-images.githubusercontent.com/102890151/180676777-94373d5c-480e-4d06-a713-3f739a507426.png">
 
