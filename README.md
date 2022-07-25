@@ -11,7 +11,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 The following criteria are used to assess the model's performance.
 
-* Accuracy Score - This is just the percentage of right predictions, with 1 being 100% accurate and 0 being 0% accurate.
+* Accuracy Score - It is a number that denotes how accurate the prediction of the Machine learning model is. The actual formula is here: Accuracy_score = (True Positive+True Negative)/(True Positive +True Negative +False Positive +False Negative)
 
 * Precision Score - a metric for how reliable a positive classification is, with 1 being 100% and 0 being 0%. As an example, "I'm aware that the high-risk test was positive. How likely is it that the loan will be high-risk?"
 
