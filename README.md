@@ -13,9 +13,9 @@ The following criteria are used to assess the model's performance.
 
 * Accuracy Score - It is a number that denotes how accurate the prediction of the Machine learning model is. The actual formula is here: Accuracy_score = (True Positive+True Negative)/(True Positive +True Negative +False Positive +False Negative)
 
-* Precision Score - a metric for how reliable a positive classification is, with 1 being 100% and 0 being 0%. As an example, "I'm aware that the high-risk test was positive. How likely is it that the loan will be high-risk?"
+* Precision Score - Precision is one indicator of a machine learning model’s performance – the quality of a positive prediction made by the model. Precision refers to the number of true positives divided by the total number of positive predictions (i.e., the number of true positives plus the number of false positives).
 
-* Recall Score - a measure of how many actual positives were accurately detected, with 1 being 100% correct and 0 being 0% correct. "I'm well aware that my loan is a high-risk investment. How likely is that the test will be able to predict it?"
+* Recall Score - Recall, sometimes referred to as ‘sensitivity, is the fraction of retrieved instances among all relevant instances. A perfect classifier has precision and recall both equal to 1. It is often possible to calibrate the number of results returned by a model and improve precision at the expense of recall, or vice versa.
 
 ## Results: 
 
