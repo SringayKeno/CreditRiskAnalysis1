@@ -59,4 +59,15 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ## Summary: 
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Summary
+
+* Out of all six machine learning models, SMOTEENN model has the lowest balanced accuracy score (51.0%) and Easy Ensemble AdaBoost Classifier model has the highest balanced accuracy score (92.5%). The balanced accuracy scores of the rest of the models are between 63.0% and 79.6%.
+
+* All models have a 100% precision score for low risk loan, which means when the model predicts the credit risk is low for a loan, it is correct every time. But the precision scores for high risk loan for all models is very low (between 1.0% and 7.0%), meaning that all models are bad at predicting if a loan is actually a high risk one.
+
+* The F1 sores (harmonic mean) of low risk loan is between 60.0% and 97.0% and this suggests the models handle the predictions for low risk loan well. However, the F1 scores for high risk loan varied between 1% and 14% and this means the success rate of recognizing a loan is risky is low.
+
+* When evaluating if the machine learning model is good at predicting credit risk, we must bear in mind the dataset is heavily imbalanced (i.e. good loans outnumber risk ones). We cannot simply judge the models by its accuracy score and must review how well it predicts both low/high risk loans individually (by reviewing precision scores and F1 scores).
+Compare to the ability to identify loans as low risk, the ability to flag high risk loans is more impactful as these loans have adverse impact to the company.
+
+* All six models fail to predict credit risk, despite some models perform better than the others. Therefore, it is not recommended to use any of them alone to predict credit risk at this stage.
