@@ -11,6 +11,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Using Resampling Models to Predict Credit Risk
 
+#### Random Oversampling
+
+In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
+
 <img width="550" alt="1Naive Random Oversampling" src="https://user-images.githubusercontent.com/102890151/180676756-401f51d6-0292-4fc6-908f-95fa87ca84fb.png">
 
 
