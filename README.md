@@ -1,7 +1,9 @@
 # CreditRiskAnalysis1
 
 
-## Overview of the analysis: Purpose of this analysis.
+## Overview of the analysis: Purpose of this analysis
+
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I d two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
 
 ## Results: 
 
