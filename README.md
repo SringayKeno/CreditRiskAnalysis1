@@ -62,9 +62,9 @@ The SMOTEENN is a combination of the SMOTE algorithm and the Edited Nearest Neig
 1. Oversample minority classes using SMOTE.
 2. Use an undersampling strategy to clean up the resulting data. If the two nearest neighbors of a data point belong to two different classes, the data point will be deleted.
 
-* The balanced accuracy score is 0.637
+* The balanced accuracy score is 0.639
 * Precision score - Precision score for high risk (0.01) and low risk 1.00
-* Recall score - Recall score for high risk (0.61) and low risk 0.45 
+* Recall score - Recall score for high risk (0.70) and low risk 0.58 
 
 results for the SMOTEENN Combination Sampling shown below
 
@@ -98,7 +98,7 @@ Easy Ensemble selects all examples from the minority class and a subset from the
 
 ## Summary: 
 
-* Out of all six machine learning models, SMOTEENN model has the lowest balanced accuracy score (51.0%) and Easy Ensemble AdaBoost Classifier model has the highest balanced accuracy score (92.5%). The balanced accuracy scores of the rest of the models are between 63.0% and 79.6%.
+* Out of all six algorithms, the SMOTE (.0637) and Cluster Centriod (.0637) models the lowest balanced accuracy scores. The Easy Ensemble AdaBoost Classifier model has the highest balanced accuracy score (92.5%). The balanced accuracy scores of the rest of the models are between 63.9% and 78.8%.
 
 * All models have a 100% precision score for low risk loan, which means when the model predicts the credit risk is low for a loan, it is correct every time. But the precision scores for high risk loan for all models is very low (between 1.0% and 7.0%), meaning that all models are bad at predicting if a loan is actually a high risk one.
 
