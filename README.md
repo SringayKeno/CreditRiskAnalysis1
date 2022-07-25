@@ -33,17 +33,23 @@ below, the results of the random sampling algorithm
 
 ### SMOTE Oversampling
 
-The synthetic Minority Oversampling (SMOTE) technique increases the size of minorities by interpolating new instances. That is, some nearest neighbours are selected for an instance of the minority class.
+The Synthetic Minority Oversampling (SMOTE) technique increases the size of minorities by interpolating new instances. That is, some nearest neighbours are selected for an instance of the minority class.
 
-* The balanced accuracy score is 0.641
+* The balanced accuracy score is 0.637
 * Precision score - Precision score for high risk (0.01) and low risk 1.00
 * Recall score - Recall score for high risk (0.60) and low risk 0.68 
+
+below, the results of the SMOTE Oversampling. There was very little difference between the SMOTE and random oversampling algorithms
 
 <img width="475" alt="2SMOTE Oversampling" src="https://user-images.githubusercontent.com/102890151/180676777-94373d5c-480e-4d06-a713-3f739a507426.png">
 
 ### Cluster Centroids Undersampling
 
 Cluster Centroids identify majority class clusters and generate synthetic data points called centroids that represent the clusters. The majority class is then subsampled to the size of the minority class.
+
+* The balanced accuracy score is 0.637
+* Precision score - Precision score for high risk (0.01) and low risk 1.00
+* Recall score - Recall score for high risk (0.60) and low risk 0.68 
 
 <img width="475" alt="3Undersampling" src="https://user-images.githubusercontent.com/102890151/180676797-d1c938af-5eea-4540-95e1-a30d62ff02be.png">
 
